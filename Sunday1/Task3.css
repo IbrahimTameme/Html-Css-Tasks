@@ -1,0 +1,62 @@
+.div1
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 118, 12);
+    animation-name: change-size;
+    animation-duration: 3s;
+}
+
+@keyframes change-size
+{
+    0%
+    {
+        width: 100px;
+    }
+    50%
+    {
+         width: 300px;
+    }
+    100%
+    {
+        width: 100px;
+    }
+
+
+}
+
+.div2
+{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation-name: change-size2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+@keyframes change-size2
+{
+    0%
+    {
+        width: 100px;
+        height: 100px;
+    }
+    50%
+    {
+         width: 300px;
+         height: 300px;
+    }
+    75%
+    {
+        width: 300px;
+        height: 400px;
+    }
+    100%
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+}

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Source+Sans+Pro:wght@600&display=swap');
+
+*
+{
+    
+font-family: 'Source Sans Pro', sans-serif;
+}
+body
+{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1
+{
+    background-image: linear-gradient(to left, violet, indigo, yellow,  purple, pink );
+
+}
+div
+{
+    text-align: center;
+    margin-top: 150px;
+    
+}
+button
+{
+    margin: 10px;
+}
+
+.btn1
+{
+    
+    width: 150px;
+    height: 40px;
+    border: none;
+color: white;
+
+    background-color: inherit;
+    
+    transition: ease-out 1s;
+    font-size: large;
+   outline: none;
+    border: 2px solid orange;
+    
+    position: relative;
+    z-index: 1;
+}
+
+.btn1:hover
+{
+    
+    cursor: pointer;
+}
+.btn1::before
+{
+    transition: 1s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: orange;
+    background-image: linear-gradient(to left, teal, darkorange ,red   );
+    
+
+}
+.btn1:hover::before
+{
+    transition: 1s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.btn2
+{
+    
+    width: 150px;
+    height: 40px;
+    border: none;
+color: white;
+
+    background-color: inherit;
+    
+    transition: ease-out 0.3s;
+    font-size: large;
+   outline: none;
+    border: 2px solid orange;
+    
+    position: relative;
+    z-index: 1;
+}
+
+.btn2:hover
+{
+    
+    cursor: pointer;
+}
+.btn2::before
+{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    content: "";
+    background-color: orange;
+    background-image: linear-gradient(to left, teal, darkorange ,red   );
+
+}
+.btn2:hover::before
+{
+    transition: 0.5s all ease;
+    top:0;
+    bottom: 0;
+    opacity: 1;
+    z-index: -1;
+}
+/*9999999999999999999999999999999 */
+.btn3
+{
+    
+    width: 150px;
+    height: 40px;
+    border: none;
+color: white;
+
+    background-color: inherit;
+    
+    transition: ease-out 0.3s;
+    font-size: large;
+   outline: none;
+    border: 2px solid orange;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.btn3:hover
+{
+    
+    cursor: pointer;
+}
+.btn3::before
+{
+    transition: 0.5s all ease;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    
+    
+    opacity: 0;
+    content: "";
+    background-color: orange;
+    background-image: linear-gradient(to left, teal, darkorange ,red   );
+    transform: translate(-50% , -50%) rotate(45deg);
+
+}
+.btn3:hover::before
+{
+    transition: 0.5s all ease;
+    
+    opacity: 1;
+    z-index: -1;
+    height: 380%;
+    
+}
+
+.btn4
+{
+    
+    width: 150px;
+    height: 40px;
+    border: none;
+color: white;
+
+    background-color: inherit;
+    
+    transition: ease-out 0.3s;
+    font-size: large;
+   outline: none;
+    border: 2px solid orange;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.btn4:hover
+{
+    
+    cursor: pointer;
+}
+.btn4::before
+{
+    transition: 0.5s all ease;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    
+    
+    opacity: 0;
+    content: "";
+    background-color: orange;
+    background-image: linear-gradient(to left, teal, darkorange ,red   );
+    transform: translate(-50% , -50%) rotate(-45deg);
+
+}
+.btn4:hover::before
+{
+    transition: 0.5s all ease;
+    
+    opacity: 1;
+    z-index: -1;
+    height: 380%;
+    
+}
+
+
+
